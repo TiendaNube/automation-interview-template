@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 @Test
 @CucumberOptions(
     features = {"src/test/resources/features/"},
-    glue = {"com.tiendanube.qe.e2e.interview.stepdefinitions"},
+    glue = {"com.tiendanube.testharness.interview.cucumber.stepdefinitions"},
     tags = {"@smoke"},
     plugin = {
         "pretty",
